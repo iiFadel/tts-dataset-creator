@@ -23,7 +23,7 @@ class AudioRecorder(QThread):
         # Audio parameters
         self.format = pyaudio.paInt16
         self.channels = 1
-        self.rate = 44100
+        self.rate = 24000
         self.chunk = 1024
         self.audio = pyaudio.PyAudio()
         
