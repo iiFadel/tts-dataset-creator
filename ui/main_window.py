@@ -7,9 +7,9 @@ from datetime import datetime
 
 from PyQt6.QtWidgets import (QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, 
                             QLabel, QPushButton, QLineEdit, QFileDialog, QComboBox, 
-                            QMessageBox, QTextEdit, QProgressBar)
+                            QMessageBox, QTextEdit, QProgressBar, )
 from PyQt6.QtCore import Qt, pyqtSignal, QTimer
-from PyQt6.QtGui import QFont, QShortcut, QKeySequence
+from PyQt6.QtGui import QFont, QShortcut, QKeySequence, QIcon
 
 from audio.recorder import AudioRecorder
 from utils.audio_utils import get_input_devices
@@ -28,6 +28,7 @@ class TTSDatasetCreator(QMainWindow):
         self.done_sentences = set()
         self.done_sentences_file = None
         self.metadata_file = None
+        
         
         # Audio recorder
         self.recorder = None
