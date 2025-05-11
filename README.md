@@ -17,6 +17,8 @@ A GUI application for creating Text-to-Speech (TTS) datasets with a clean interf
 - **Progress tracking**
   - Keep track of recorded sentences
 
+## Preview
+![App Screenshot](assets/screenshot.png)
 
 ## Requirements
 
