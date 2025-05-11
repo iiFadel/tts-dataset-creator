@@ -45,7 +45,7 @@ tts-dataset-creator/
 │       ├── __init__.py       
 │       └── file_utils.py     # File handling utilities
 └── data/                     # Directory for sample data
-    └── sample_sentences.csv  # Sentences input file
+    └── sample_sentences.csv  # Sentences - input file
 ```
 
 ## Installation
