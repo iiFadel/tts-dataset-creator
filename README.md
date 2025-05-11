@@ -154,4 +154,4 @@ If you use this tool in your research, project, or dataset collection process, p
 
 ## License
 This codebase is released under the MIT License.  
-Please refer to the [LICENSE](LICENSE) file for more details.
+Please refer to the [LICENSE](https://github.com/iiFadel/tts-dataset-creator/blob/main/LICENSE) file for more details.
